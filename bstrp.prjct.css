@@ -1,0 +1,156 @@
+html, body {
+    overflow-x: hidden;
+}
+.spn{
+    color: #3ef4f4;
+}
+
+.s2{
+    background-image: url(time\ m.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+    background-position: center;
+}
+.left{
+    position: absolute;
+     background-color: rgb(236, 234, 234);
+    min-height:100px;
+    width: 50%;
+    /* z-index: -1; */
+    bottom: -50px;
+    left: 0px;
+    transform: skew(40deg);
+}
+.right{
+    position: absolute;
+     background-color: rgb(236, 234, 234);
+    min-height: 100px;
+    width: 50%;
+    /* z-index: -1; */
+    right: 0px;
+    bottom: -50px;
+    transform: skew(-40deg);
+
+}
+
+.bb{
+    background-color:rgba(4, 4, 4, 0.335);
+}
+.mgg{
+    height: 15px;
+}
+
+.bannerbox{
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fdfbfb;
+    text-align: center;
+}
+.bannerbox h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.bannerbox soyou{
+    
+    font-weight: bold;
+}
+.s3{
+    background-color: rgb(236, 234, 234);
+    padding-top: 40px;
+    min-height: 300px;
+   
+}
+.s4{
+    min-height: 400px;
+}
+/* .mg1{
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    
+} */
+ .imgs{
+    text-align: center;
+ }
+/* .vv{
+    min-height: 500px;
+    
+   
+} */
+.mg2{
+    height: 25px;  
+    align-items: first baseline;
+}
+.mg21{
+    height: 35px; 
+}
+
+.tab,.person{
+    height: 410px;
+    
+}
+.mg3{
+    height: 25px; 
+    
+}
+.ccvv{
+    padding: 50px 50px 0px 50px;
+    margin: 50px;
+}
+.s5{
+    background-color: rgb(236, 234, 234) ;
+}
+.s6{
+    text-align: center;
+    margin: 100px;
+}
+.mg4{
+    height: 250px;
+}
+.s7{
+    background-color: rgb(70, 164, 180);
+    height: 400px;
+    text-align: center;
+
+   
+    
+}
+.s8{
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.p1{
+    font-style: oblique;
+}
+.sw{
+    transform: translateY(-70px);
+}
+@media
+(max-width:468px){
+    .s2{
+        width: 100%;
+        height: 800px;
+    }
+    .person{
+        text-align: center;
+        height: 500px;
+    }
+    .bannerbox{
+        height:700px;
+    }
+    .s6{
+    
+    margin: 0px;
+    }
+    .mg4{
+        width:300px ;
+    }
+}
